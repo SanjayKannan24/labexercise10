@@ -1,0 +1,46 @@
+#dataForm{
+    text-align: center;
+}
+
+#info{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: center;
+    grid-column-gap: 2vw;
+}
+
+#info input{
+    width: 30vw;
+    height: 2vh;
+}
+
+.address{
+    width: 63vw;
+    height: 2vh;
+}
+
+#info_2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-content: center;
+    grid-column-gap: 2vw;
+}
+
+#info_2 input , #info_2 select{
+    width: 19vw;
+    height: 2vh;
+}
+
+button{
+    background-color: green;
+    height: 2vh;
+}
+
+#output{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: center;
+}
